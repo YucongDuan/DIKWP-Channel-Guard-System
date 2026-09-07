@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GenealogyCard",
+  "type": "object",
+  "required": ["dataset_id", "base_family", "student_base_family", "lineage_complete", "synthetic_depth", "same_family_risk", "risk_color"],
+  "properties": {
+    "dataset_id": {"type": "string"},
+    "base_family": {"type": "string"},
+    "student_base_family": {"type": ["string", "null"]},
+    "teacher_model": {"type": ["string", "null"]},
+    "trusted_root": {"type": ["string", "null"]},
+    "lineage_complete": {"type": "boolean"},
+    "synthetic_depth": {"type": "integer"},
+    "same_family_risk": {"type": "boolean"},
+    "risk_color": {"enum": ["green", "amber", "red"]},
+    "notes": {"type": "array", "items": {"type": "string"}}
+  }
+}

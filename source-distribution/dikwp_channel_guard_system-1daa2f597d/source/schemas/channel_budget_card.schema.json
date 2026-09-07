@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ChannelBudgetCard",
+  "type": "object",
+  "required": ["dataset_id", "declared_semantics", "raw_entropy_avg", "canonical_entropy_avg", "entropy_reduction", "residual_literal_ratio_avg", "projection_summary"],
+  "properties": {
+    "dataset_id": {"type": "string"},
+    "declared_semantics": {"type": "array", "items": {"type": "string"}},
+    "raw_entropy_avg": {"type": "number"},
+    "canonical_entropy_avg": {"type": "number"},
+    "entropy_reduction": {"type": "number"},
+    "residual_literal_ratio_avg": {"type": "number"},
+    "projection_summary": {"type": "object"},
+    "notes": {"type": "array", "items": {"type": "string"}}
+  }
+}

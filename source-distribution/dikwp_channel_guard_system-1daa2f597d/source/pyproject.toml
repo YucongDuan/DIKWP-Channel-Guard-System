@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dikwp-channel-guard-system"
+version = "0.1.0"
+description = "Defensive audit system for undeclared channel capacity in AI distillation pipelines"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.115.0",
+  "uvicorn>=0.30.0",
+  "pydantic>=2.8.0",
+  "PyYAML>=6.0.0",
+  "scikit-learn>=1.4.0",
+  "numpy>=1.26.0"
+]
+
+[project.scripts]
+dikwp-guard = "dikwp_guard.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,32 @@
+{
+  "dataset_id": "demo_mixed_modalities",
+  "teacher_predictability": {
+    "raw_accuracy": null,
+    "canonical_accuracy": null,
+    "baseline_accuracy": null,
+    "raw_macro_f1": null,
+    "canonical_macro_f1": null,
+    "raw_excess_accuracy": null,
+    "canonical_excess_accuracy": null,
+    "label_count": 4,
+    "sample_count": 4
+  },
+  "trait_predictability": {
+    "raw_accuracy": null,
+    "canonical_accuracy": null,
+    "baseline_accuracy": null,
+    "raw_macro_f1": null,
+    "canonical_macro_f1": null,
+    "raw_excess_accuracy": null,
+    "canonical_excess_accuracy": null,
+    "label_count": 3,
+    "sample_count": 4
+  },
+  "leakage_summary": {
+    "teacher_signal_reduction": 0.0,
+    "trait_signal_reduction": 0.0,
+    "teacher_signal_remaining": 0.0,
+    "trait_signal_remaining": 0.0
+  },
+  "notes": []
+}

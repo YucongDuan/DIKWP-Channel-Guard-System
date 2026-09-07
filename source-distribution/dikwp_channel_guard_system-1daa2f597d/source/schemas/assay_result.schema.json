@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AssayResult",
+  "type": "object",
+  "required": ["dataset_id", "teacher_predictability", "trait_predictability", "leakage_summary"],
+  "properties": {
+    "dataset_id": {"type": "string"},
+    "teacher_predictability": {"type": "object"},
+    "trait_predictability": {"type": "object"},
+    "leakage_summary": {"type": "object"},
+    "notes": {"type": "array", "items": {"type": "string"}}
+  }
+}

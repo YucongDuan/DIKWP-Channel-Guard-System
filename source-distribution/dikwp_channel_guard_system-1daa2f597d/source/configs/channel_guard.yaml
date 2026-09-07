@@ -1,0 +1,38 @@
+system:
+  name: DIKWP Channel Guard System
+  version: 0.1.0
+  artifact_root: artifacts
+
+policy:
+  require_lineage_complete_for_high_risk: true
+  require_trusted_root_for_high_risk: true
+  block_unsupported_projection_for_high_risk: true
+  high_risk_intended_use:
+    - sft
+    - dpo
+    - distillation
+    - rl
+  high_risk_modalities:
+    - free_text
+    - cot
+    - code
+
+thresholds:
+  green:
+    max_teacher_excess_accuracy: 0.08
+    max_trait_excess_accuracy: 0.06
+    max_residual_literal_ratio: 0.10
+    min_entropy_reduction: 0.35
+  amber:
+    max_teacher_excess_accuracy: 0.15
+    max_trait_excess_accuracy: 0.10
+    max_residual_literal_ratio: 0.20
+    min_entropy_reduction: 0.20
+
+projection_defaults:
+  numeric: numeric_bins_v1
+  json: json_slots_v1
+  code: python_ast_v1
+  cot: cot_tags_v1
+  dialog: dialog_state_v1
+  free_text: free_text_shape_v1

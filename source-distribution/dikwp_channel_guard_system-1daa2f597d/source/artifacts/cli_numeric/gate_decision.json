@@ -1,0 +1,18 @@
+{
+  "dataset_id": "demo_numeric_lineage",
+  "decision": "amber",
+  "summary": "Undeclared capacity has been reduced but not sufficiently closed; remediation required before training approval.",
+  "blocking_conditions": [],
+  "required_actions": [
+    "treat same-family synthetic data as elevated risk and require assay sign-off",
+    "projection passes assay but should still be manually reviewed because information-theoretic proxy is weak"
+  ],
+  "metrics_snapshot": {
+    "teacher_excess_accuracy": 0.0,
+    "trait_excess_accuracy": 0.0,
+    "residual_literal_ratio_avg": 0.0,
+    "entropy_reduction": -2.8821,
+    "same_family_risk": true,
+    "synthetic_depth": 1
+  }
+}

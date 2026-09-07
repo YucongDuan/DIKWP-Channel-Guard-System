@@ -1,0 +1,233 @@
+{
+  "run_id": "guard_e5301c741c58",
+  "generated_at": "2026-04-18T04:20:24.219963+00:00",
+  "manifest": {
+    "dataset_id": "demo_mixed_modalities",
+    "dataset_name": "Demo mixed modalities for smoke testing",
+    "risk_level": "medium",
+    "intended_use": "eval",
+    "base_family": "mixed_demo_base",
+    "student_base_family": "mixed_demo_student",
+    "teacher_model": "mixed_demo_teacher",
+    "trusted_root": "manual_curated_root",
+    "lineage_complete": true,
+    "synthetic_depth": 1,
+    "declared_semantics": [
+      "intent",
+      "action",
+      "structural shape",
+      "uncertainty"
+    ],
+    "projection_policy": {
+      "dialog": "dialog_state_v1",
+      "code": "python_ast_v1",
+      "json": "json_slots_v1",
+      "free_text": "free_text_shape_v1"
+    },
+    "samples": [
+      {
+        "sample_id": "dlg_001",
+        "modality": "dialog",
+        "raw_text": "系统昨晚报错，用户要求立刻放开权限并跳过审批。建议先人工升级处理。",
+        "source_family": "mixed.teacher.dialog_a",
+        "teacher_id": null,
+        "trait_label": "safe_ops",
+        "declared_semantics": [],
+        "metadata": {}
+      },
+      {
+        "sample_id": "code_001",
+        "modality": "code",
+        "raw_text": "def add(a, b):\n    result = a + b\n    return result\n",
+        "source_family": "mixed.teacher.code_a",
+        "teacher_id": null,
+        "trait_label": "simple_style",
+        "declared_semantics": [],
+        "metadata": {}
+      },
+      {
+        "sample_id": "json_001",
+        "modality": "json",
+        "raw_text": "{\"uric_acid\": 540, \"unit\": \"umol/L\", \"temperature\": \"unknown\"}",
+        "source_family": "mixed.teacher.json_a",
+        "teacher_id": null,
+        "trait_label": null,
+        "declared_semantics": [],
+        "metadata": {}
+      },
+      {
+        "sample_id": "txt_001",
+        "modality": "free_text",
+        "raw_text": "The model produced a concise answer but probably missed one uncertainty marker.",
+        "source_family": "mixed.teacher.text_a",
+        "teacher_id": null,
+        "trait_label": null,
+        "declared_semantics": [],
+        "metadata": {}
+      }
+    ]
+  },
+  "genealogy_card": {
+    "dataset_id": "demo_mixed_modalities",
+    "base_family": "mixed_demo_base",
+    "student_base_family": "mixed_demo_student",
+    "teacher_model": "mixed_demo_teacher",
+    "trusted_root": "manual_curated_root",
+    "lineage_complete": true,
+    "synthetic_depth": 1,
+    "same_family_risk": false,
+    "risk_color": "green",
+    "notes": []
+  },
+  "channel_budget_card": {
+    "dataset_id": "demo_mixed_modalities",
+    "declared_semantics": [
+      "intent",
+      "action",
+      "structural shape",
+      "uncertainty"
+    ],
+    "raw_entropy_avg": 3.809,
+    "canonical_entropy_avg": 3.4895,
+    "entropy_reduction": 0.0766,
+    "residual_literal_ratio_avg": 0.0,
+    "projection_summary": {
+      "by_projection": {
+        "dialog_state_v1": 1,
+        "python_ast_v1": 1,
+        "json_slots_v1": 1,
+        "free_text_shape_v1": 1
+      },
+      "by_modality": {
+        "dialog": 1,
+        "code": 1,
+        "json": 1,
+        "free_text": 1
+      },
+      "declared_semantics_count": 4,
+      "raw_bits_avg": 85.3242,
+      "canonical_bits_avg": 78.7844
+    },
+    "notes": []
+  },
+  "assay_result": {
+    "dataset_id": "demo_mixed_modalities",
+    "teacher_predictability": {
+      "raw_accuracy": null,
+      "canonical_accuracy": null,
+      "baseline_accuracy": null,
+      "raw_macro_f1": null,
+      "canonical_macro_f1": null,
+      "raw_excess_accuracy": null,
+      "canonical_excess_accuracy": null,
+      "label_count": 4,
+      "sample_count": 4
+    },
+    "trait_predictability": {
+      "raw_accuracy": null,
+      "canonical_accuracy": null,
+      "baseline_accuracy": null,
+      "raw_macro_f1": null,
+      "canonical_macro_f1": null,
+      "raw_excess_accuracy": null,
+      "canonical_excess_accuracy": null,
+      "label_count": 3,
+      "sample_count": 4
+    },
+    "leakage_summary": {
+      "teacher_signal_reduction": 0.0,
+      "trait_signal_reduction": 0.0,
+      "teacher_signal_remaining": 0.0,
+      "trait_signal_remaining": 0.0
+    },
+    "notes": []
+  },
+  "gate_decision": {
+    "dataset_id": "demo_mixed_modalities",
+    "decision": "amber",
+    "summary": "Undeclared capacity has been reduced but not sufficiently closed; remediation required before training approval.",
+    "blocking_conditions": [],
+    "required_actions": [
+      "increase lossy projection before training"
+    ],
+    "metrics_snapshot": {
+      "teacher_excess_accuracy": 0.0,
+      "trait_excess_accuracy": 0.0,
+      "residual_literal_ratio_avg": 0.0,
+      "entropy_reduction": 0.0766,
+      "same_family_risk": false,
+      "synthetic_depth": 1
+    }
+  },
+  "canonical_samples": [
+    {
+      "sample_id": "dlg_001",
+      "modality": "dialog",
+      "source_family": "mixed.teacher.dialog_a",
+      "teacher_id": null,
+      "trait_label": "safe_ops",
+      "projection": "dialog_state_v1",
+      "canonical_text": "projection=dialog_state_v1 modality=dialog intents=access_request,status_check,safety_override actions=escalate,advise uncertainty=0 pii_hits=0",
+      "raw_token_count": 33,
+      "canonical_token_count": 24,
+      "preserved_literal_tokens": 0,
+      "residual_literal_ratio": 0.0,
+      "dropped_ratio": 1.0,
+      "raw_entropy": 4.9838,
+      "canonical_entropy": 3.6573,
+      "notes": []
+    },
+    {
+      "sample_id": "code_001",
+      "modality": "code",
+      "source_family": "mixed.teacher.code_a",
+      "teacher_id": null,
+      "trait_label": "simple_style",
+      "projection": "python_ast_v1",
+      "canonical_text": "projection=python_ast_v1 modality=code funcs=1 calls=0 imports=0 branches=0 loops=0 node_types=11",
+      "raw_token_count": 15,
+      "canonical_token_count": 24,
+      "preserved_literal_tokens": 0,
+      "residual_literal_ratio": 0.0,
+      "dropped_ratio": 1.0,
+      "raw_entropy": 3.5069,
+      "canonical_entropy": 3.2516,
+      "notes": []
+    },
+    {
+      "sample_id": "json_001",
+      "modality": "json",
+      "source_family": "mixed.teacher.json_a",
+      "teacher_id": null,
+      "trait_label": null,
+      "projection": "json_slots_v1",
+      "canonical_text": "projection=json_slots_v1 modality=json keys=temperature,unit,uric_acid types=int,str field_count=3 unknown_fields=1",
+      "raw_token_count": 25,
+      "canonical_token_count": 24,
+      "preserved_literal_tokens": 0,
+      "residual_literal_ratio": 0.0,
+      "dropped_ratio": 1.0,
+      "raw_entropy": 3.0449,
+      "canonical_entropy": 3.7406,
+      "notes": []
+    },
+    {
+      "sample_id": "txt_001",
+      "modality": "free_text",
+      "source_family": "mixed.teacher.text_a",
+      "teacher_id": null,
+      "trait_label": null,
+      "projection": "free_text_shape_v1",
+      "canonical_text": "projection=free_text_shape_v1 modality=free_text sentences=1 token_count=13 uncertainty=2 digits=0",
+      "raw_token_count": 13,
+      "canonical_token_count": 18,
+      "preserved_literal_tokens": 0,
+      "residual_literal_ratio": 0.0,
+      "dropped_ratio": 1.0,
+      "raw_entropy": 3.7004,
+      "canonical_entropy": 3.3083,
+      "notes": []
+    }
+  ],
+  "residual": []
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DatasetManifest",
+  "type": "object",
+  "required": ["dataset_id", "dataset_name", "risk_level", "intended_use", "base_family", "declared_semantics", "samples"],
+  "properties": {
+    "dataset_id": {"type": "string"},
+    "dataset_name": {"type": "string"},
+    "risk_level": {"enum": ["low", "medium", "high"]},
+    "intended_use": {"enum": ["sft", "dpo", "distillation", "rl", "eval", "archive", "other"]},
+    "base_family": {"type": "string"},
+    "student_base_family": {"type": ["string", "null"]},
+    "teacher_model": {"type": ["string", "null"]},
+    "trusted_root": {"type": ["string", "null"]},
+    "lineage_complete": {"type": "boolean"},
+    "synthetic_depth": {"type": "integer", "minimum": 0},
+    "declared_semantics": {"type": "array", "items": {"type": "string"}},
+    "projection_policy": {"type": "object", "additionalProperties": {"type": "string"}},
+    "samples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sample_id", "modality", "raw_text", "source_family"],
+        "properties": {
+          "sample_id": {"type": "string"},
+          "modality": {"enum": ["numeric", "code", "cot", "dialog", "json", "free_text"]},
+          "raw_text": {"type": "string"},
+          "source_family": {"type": "string"},
+          "teacher_id": {"type": ["string", "null"]},
+          "trait_label": {"type": ["string", "null"]},
+          "declared_semantics": {"type": "array", "items": {"type": "string"}},
+          "metadata": {"type": "object"}
+        }
+      }
+    }
+  }
+}

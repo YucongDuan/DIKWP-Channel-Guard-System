@@ -1,0 +1,25 @@
+{
+  "dataset_id": "demo_numeric_lineage",
+  "declared_semantics": [
+    "sequence_length",
+    "range_shape",
+    "monotonicity",
+    "uniqueness_bucket"
+  ],
+  "raw_entropy_avg": 2.901,
+  "canonical_entropy_avg": 3.6039,
+  "entropy_reduction": -2.8821,
+  "residual_literal_ratio_avg": 0.0,
+  "projection_summary": {
+    "by_projection": {
+      "numeric_bins_v1": 48
+    },
+    "by_modality": {
+      "numeric": 48
+    },
+    "declared_semantics_count": 4,
+    "raw_bits_avg": 23.2083,
+    "canonical_bits_avg": 90.0975
+  },
+  "notes": []
+}

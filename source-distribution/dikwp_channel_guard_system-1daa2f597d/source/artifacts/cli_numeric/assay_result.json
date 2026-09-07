@@ -1,0 +1,32 @@
+{
+  "dataset_id": "demo_numeric_lineage",
+  "teacher_predictability": {
+    "raw_accuracy": 0.9583,
+    "canonical_accuracy": 0.5,
+    "baseline_accuracy": 0.5,
+    "raw_macro_f1": 0.9583,
+    "canonical_macro_f1": 0.4535,
+    "raw_excess_accuracy": 0.4583,
+    "canonical_excess_accuracy": 0.0,
+    "label_count": 2,
+    "sample_count": 48
+  },
+  "trait_predictability": {
+    "raw_accuracy": 0.9583,
+    "canonical_accuracy": 0.5,
+    "baseline_accuracy": 0.5,
+    "raw_macro_f1": 0.9583,
+    "canonical_macro_f1": 0.4535,
+    "raw_excess_accuracy": 0.4583,
+    "canonical_excess_accuracy": 0.0,
+    "label_count": 2,
+    "sample_count": 48
+  },
+  "leakage_summary": {
+    "teacher_signal_reduction": 0.4583,
+    "trait_signal_reduction": 0.4583,
+    "teacher_signal_remaining": 0.0,
+    "trait_signal_remaining": 0.0
+  },
+  "notes": []
+}

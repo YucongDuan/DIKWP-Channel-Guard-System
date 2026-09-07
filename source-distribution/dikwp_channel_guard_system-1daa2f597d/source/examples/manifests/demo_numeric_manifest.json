@@ -1,0 +1,407 @@
+{
+  "dataset_id": "demo_numeric_lineage",
+  "dataset_name": "Demo numeric sequences with hidden teacher patterns",
+  "risk_level": "high",
+  "intended_use": "distillation",
+  "base_family": "demo_family_v1",
+  "student_base_family": "demo_family_v1",
+  "teacher_model": "demo_teacher_pair_v1",
+  "trusted_root": "human_origin_seed_v1",
+  "lineage_complete": true,
+  "synthetic_depth": 1,
+  "declared_semantics": [
+    "sequence_length",
+    "range_shape",
+    "monotonicity",
+    "uniqueness_bucket"
+  ],
+  "projection_policy": {
+    "numeric": "numeric_bins_v1"
+  },
+  "samples": [
+    {
+      "sample_id": "owl_000",
+      "modality": "numeric",
+      "raw_text": "673 204 127 764 351 323 302 225",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_001",
+      "modality": "numeric",
+      "raw_text": "764 197 708 764 589 183 631 484",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_002",
+      "modality": "numeric",
+      "raw_text": "134 127 183 295 309 554 645 127",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_003",
+      "modality": "numeric",
+      "raw_text": "603 281 743 687 729 589 477 302",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_004",
+      "modality": "numeric",
+      "raw_text": "505 631 351 827 106 785 827 246",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_005",
+      "modality": "numeric",
+      "raw_text": "729 484 407 351 239 295 785 407",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_006",
+      "modality": "numeric",
+      "raw_text": "197 183 442 190 421 414 645 337",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_007",
+      "modality": "numeric",
+      "raw_text": "827 141 757 512 582 211 442 176",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_008",
+      "modality": "numeric",
+      "raw_text": "596 365 666 659 428 617 274 736",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_009",
+      "modality": "numeric",
+      "raw_text": "162 141 694 309 792 365 176 309",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_010",
+      "modality": "numeric",
+      "raw_text": "190 442 351 512 673 428 246 435",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_011",
+      "modality": "numeric",
+      "raw_text": "421 288 701 344 729 715 680 169",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_012",
+      "modality": "numeric",
+      "raw_text": "645 673 253 582 757 323 246 519",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_013",
+      "modality": "numeric",
+      "raw_text": "442 344 673 722 603 302 715 393",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_014",
+      "modality": "numeric",
+      "raw_text": "792 799 155 309 841 134 827 386",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_015",
+      "modality": "numeric",
+      "raw_text": "463 344 162 295 610 743 386 295",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_016",
+      "modality": "numeric",
+      "raw_text": "687 547 456 680 512 232 337 225",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_017",
+      "modality": "numeric",
+      "raw_text": "323 771 603 582 337 771 624 484",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_018",
+      "modality": "numeric",
+      "raw_text": "624 463 428 302 225 561 547 183",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_019",
+      "modality": "numeric",
+      "raw_text": "778 148 204 239 666 246 813 715",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_020",
+      "modality": "numeric",
+      "raw_text": "484 638 162 449 442 638 519 575",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_021",
+      "modality": "numeric",
+      "raw_text": "330 596 113 715 750 204 715 582",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_022",
+      "modality": "numeric",
+      "raw_text": "778 344 792 680 407 204 365 491",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "owl_023",
+      "modality": "numeric",
+      "raw_text": "246 512 106 750 750 337 554 785",
+      "source_family": "demo_family_v1.teacher_owl",
+      "teacher_id": "teacher_owl",
+      "trait_label": "owl"
+    },
+    {
+      "sample_id": "fox_000",
+      "modality": "numeric",
+      "raw_text": "262 556 199 668 374 675 556 647",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_001",
+      "modality": "numeric",
+      "raw_text": "283 241 437 787 248 591 801 577",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_002",
+      "modality": "numeric",
+      "raw_text": "108 640 395 542 122 206 430 829",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_003",
+      "modality": "numeric",
+      "raw_text": "381 318 157 318 612 178 178 759",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_004",
+      "modality": "numeric",
+      "raw_text": "542 836 164 787 584 794 220 220",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_005",
+      "modality": "numeric",
+      "raw_text": "696 528 598 255 339 577 647 486",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_006",
+      "modality": "numeric",
+      "raw_text": "297 591 780 759 724 283 745 381",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_007",
+      "modality": "numeric",
+      "raw_text": "465 703 689 437 500 570 507 213",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_008",
+      "modality": "numeric",
+      "raw_text": "325 304 164 409 122 633 598 311",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_009",
+      "modality": "numeric",
+      "raw_text": "633 304 108 171 738 668 157 311",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_010",
+      "modality": "numeric",
+      "raw_text": "164 136 402 171 563 318 353 703",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_011",
+      "modality": "numeric",
+      "raw_text": "542 297 591 220 752 619 619 528",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_012",
+      "modality": "numeric",
+      "raw_text": "325 808 528 829 472 276 192 192",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_013",
+      "modality": "numeric",
+      "raw_text": "696 493 423 486 472 521 759 150",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_014",
+      "modality": "numeric",
+      "raw_text": "710 689 682 192 157 465 759 409",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_015",
+      "modality": "numeric",
+      "raw_text": "822 199 325 276 276 584 507 227",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_016",
+      "modality": "numeric",
+      "raw_text": "486 269 353 521 325 171 500 829",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_017",
+      "modality": "numeric",
+      "raw_text": "598 192 150 689 591 115 185 780",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_018",
+      "modality": "numeric",
+      "raw_text": "318 255 472 542 535 297 465 157",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_019",
+      "modality": "numeric",
+      "raw_text": "255 444 108 451 339 808 808 514",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_020",
+      "modality": "numeric",
+      "raw_text": "360 486 731 759 808 605 696 745",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_021",
+      "modality": "numeric",
+      "raw_text": "542 241 276 367 297 157 626 766",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_022",
+      "modality": "numeric",
+      "raw_text": "591 157 773 388 157 150 626 535",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    },
+    {
+      "sample_id": "fox_023",
+      "modality": "numeric",
+      "raw_text": "556 577 248 157 563 178 269 164",
+      "source_family": "demo_family_v1.teacher_fox",
+      "teacher_id": "teacher_fox",
+      "trait_label": "fox"
+    }
+  ]
+}

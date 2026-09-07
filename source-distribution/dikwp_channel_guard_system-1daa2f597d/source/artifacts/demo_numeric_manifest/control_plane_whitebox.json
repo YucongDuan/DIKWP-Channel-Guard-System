@@ -1,0 +1,29 @@
+{
+  "run_id": "guard_aadf5c9893f8",
+  "task_type": "channel_guard_audit",
+  "tenant_id": "default",
+  "backend_used": "dikwp_channel_guard",
+  "role_path": [
+    "ingest",
+    "canonicalize",
+    "assay",
+    "gate"
+  ],
+  "evidence_refs": [
+    {
+      "source": "manifest",
+      "locator": "demo_numeric_lineage",
+      "note": "dataset manifest"
+    }
+  ],
+  "approvals": [],
+  "memory_ids": [],
+  "output_hash": "119a21f5da6964741232de69b0730be55b37caf2774c5e86fc2e4f729485145e",
+  "replay_pointer": "replay://guard_aadf5c9893f8",
+  "policy_version": "channel_guard_v1",
+  "invariant_violations": [],
+  "backend_decision": {
+    "engine": "local"
+  },
+  "created_at": "2026-04-18T04:20:24.207943+00:00"
+}

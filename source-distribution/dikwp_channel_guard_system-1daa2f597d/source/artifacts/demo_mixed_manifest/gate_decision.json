@@ -1,0 +1,17 @@
+{
+  "dataset_id": "demo_mixed_modalities",
+  "decision": "amber",
+  "summary": "Undeclared capacity has been reduced but not sufficiently closed; remediation required before training approval.",
+  "blocking_conditions": [],
+  "required_actions": [
+    "increase lossy projection before training"
+  ],
+  "metrics_snapshot": {
+    "teacher_excess_accuracy": 0.0,
+    "trait_excess_accuracy": 0.0,
+    "residual_literal_ratio_avg": 0.0,
+    "entropy_reduction": 0.0766,
+    "same_family_risk": false,
+    "synthetic_depth": 1
+  }
+}

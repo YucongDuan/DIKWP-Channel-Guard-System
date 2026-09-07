@@ -1,0 +1,12 @@
+{
+  "dataset_id": "demo_mixed_modalities",
+  "base_family": "mixed_demo_base",
+  "student_base_family": "mixed_demo_student",
+  "teacher_model": "mixed_demo_teacher",
+  "trusted_root": "manual_curated_root",
+  "lineage_complete": true,
+  "synthetic_depth": 1,
+  "same_family_risk": false,
+  "risk_color": "green",
+  "notes": []
+}

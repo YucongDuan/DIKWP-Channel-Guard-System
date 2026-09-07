@@ -1,0 +1,775 @@
+{
+  "schema": "safe-source-preparation/v1",
+  "status": "STRUCTURALLY_PREPARED_UNTESTED",
+  "prepared_at_utc": "2026-09-07T05:18:31.464821+00:00",
+  "source": {
+    "archive_path": "dikwp_channel_guard_system.zip",
+    "archive_bytes": 336478,
+    "sha256": "8fca80628acfb2d3825fbeb13989c966e9e272faecbdf275af294530cd80bd7f",
+    "source_url": "https://raw.githubusercontent.com/YucongDuan/DIKWP-Channel-Guard-System/da7d8f645a21b8f28ea5dc4c8f23cd6cb1d7925c/dikwp_channel_guard_system.zip",
+    "original_unchanged": true
+  },
+  "destination": "source-distribution/dikwp_channel_guard_system-1daa2f597d",
+  "unwrapped_directory": "dikwp_channel_guard_system",
+  "project_marker_directories": [
+    "."
+  ],
+  "limits": {
+    "max_entries": 20000,
+    "max_file_bytes": 103809024,
+    "max_total_bytes": 536870912,
+    "max_archive_bytes": 104857600,
+    "max_ratio": 200.0,
+    "max_path_depth": 64,
+    "max_path_bytes": 1024
+  },
+  "workflows": {
+    "included_in_source": false,
+    "authority": "",
+    "executed": false,
+    "default": "quarantine"
+  },
+  "warnings": [],
+  "files": [
+    {
+      "archive_path": "dikwp_channel_guard_system/",
+      "output_path": "source",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/src/",
+      "output_path": "source/src",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/src/dikwp_guard/",
+      "output_path": "source/src/dikwp_guard",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/src/dikwp_guard/__init__.py",
+      "output_path": "source/src/dikwp_guard/__init__.py",
+      "kind": "file",
+      "bytes": 45,
+      "sha256": "17bef2cfcad90f0034b3a5cccdfe3e2ee9a7ab4bd6a6a16d3cdef7d7d5aa958a",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/src/dikwp_guard/utils.py",
+      "output_path": "source/src/dikwp_guard/utils.py",
+      "kind": "file",
+      "bytes": 1480,
+      "sha256": "19c7c7dd853b2594ef43bb58ef5ef93b409badaf96900e2abcf93f85d5439264",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/src/dikwp_guard/config.py",
+      "output_path": "source/src/dikwp_guard/config.py",
+      "kind": "file",
+      "bytes": 488,
+      "sha256": "80cf44519906717677390258b98b7bd5e361cd0aab37c6087a4a7aa1a9feee17",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/src/dikwp_guard/models.py",
+      "output_path": "source/src/dikwp_guard/models.py",
+      "kind": "file",
+      "bytes": 3539,
+      "sha256": "b7d8f6a4cf2c637b06595451234870a3470c7f0574f9275f358e7b7bf6c595ae",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/src/dikwp_guard/metrics.py",
+      "output_path": "source/src/dikwp_guard/metrics.py",
+      "kind": "file",
+      "bytes": 2019,
+      "sha256": "5aec2839eceb9870ff242dbf95ca199e95a34cbf61ad516754174112b8eae72d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/src/dikwp_guard/canonicalizers.py",
+      "output_path": "source/src/dikwp_guard/canonicalizers.py",
+      "kind": "file",
+      "bytes": 9160,
+      "sha256": "e7d070d90adca7a4d96d4879e120fb548f07fa2f32f570346b8b85953c1186ea",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/src/dikwp_guard/genealogy.py",
+      "output_path": "source/src/dikwp_guard/genealogy.py",
+      "kind": "file",
+      "bytes": 1381,
+      "sha256": "35c6b595005d7b9624fbc9b19230b1f4252e906435d0b828eaef3df078062406",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/src/dikwp_guard/assay.py",
+      "output_path": "source/src/dikwp_guard/assay.py",
+      "kind": "file",
+      "bytes": 3568,
+      "sha256": "258cf136ba3d4454bac9c6d8345dce2001b733abd66bcfc9aa52f8766663c06f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/src/dikwp_guard/gates.py",
+      "output_path": "source/src/dikwp_guard/gates.py",
+      "kind": "file",
+      "bytes": 5143,
+      "sha256": "a49f37f3632665e823fed9dcacd30cd87c863ec19b369a7f8f98a73078d0f476",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/src/dikwp_guard/reporting.py",
+      "output_path": "source/src/dikwp_guard/reporting.py",
+      "kind": "file",
+      "bytes": 4702,
+      "sha256": "ebbc0be92068b6d8dffd8ab96f76e0be836dd20c07fe59f62ce533617a31cbcc",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/src/dikwp_guard/pipeline.py",
+      "output_path": "source/src/dikwp_guard/pipeline.py",
+      "kind": "file",
+      "bytes": 3087,
+      "sha256": "6362e281e0442f2defe91cb07fa281e1a32555d90b4a0502534fd4ee7c20f98d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/src/dikwp_guard/api.py",
+      "output_path": "source/src/dikwp_guard/api.py",
+      "kind": "file",
+      "bytes": 560,
+      "sha256": "9ea93b6a68acb62d20b42aee66e987dc2ea31aebb649c570a99c65b1b81881e1",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/src/dikwp_guard/cli.py",
+      "output_path": "source/src/dikwp_guard/cli.py",
+      "kind": "file",
+      "bytes": 1627,
+      "sha256": "0124dd6414cbc55964f748292c65dba0e2729636147c4956635b2fb3d013650f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/configs/",
+      "output_path": "source/configs",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/configs/channel_guard.yaml",
+      "output_path": "source/configs/channel_guard.yaml",
+      "kind": "file",
+      "bytes": 859,
+      "sha256": "57429fd8242a0d6d37a3f5cc9843eb7838a4fcea05738b2dc76e500b308c0407",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/schemas/",
+      "output_path": "source/schemas",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/schemas/dataset_manifest.schema.json",
+      "output_path": "source/schemas/dataset_manifest.schema.json",
+      "kind": "file",
+      "bytes": 1613,
+      "sha256": "de569a79cb573941d14a3348dc37f34e4418629662d39d7c16878ebe58443626",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/schemas/genealogy_card.schema.json",
+      "output_path": "source/schemas/genealogy_card.schema.json",
+      "kind": "file",
+      "bytes": 760,
+      "sha256": "b96e3e1a06d04eabd387c9d2b406d395b13803bb8aacd1ec04f9b3010f717744",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/schemas/channel_budget_card.schema.json",
+      "output_path": "source/schemas/channel_budget_card.schema.json",
+      "kind": "file",
+      "bytes": 717,
+      "sha256": "97f09c89b8a58509da11263d27614188f31d5bba4bfb9e5bc414499a01cd4be3",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/schemas/assay_result.schema.json",
+      "output_path": "source/schemas/assay_result.schema.json",
+      "kind": "file",
+      "bytes": 471,
+      "sha256": "746c639126e803be24b269fe831f86d7e0d78fe18d6040cd8db2ec34d8252d7a",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/schemas/gate_decision.schema.json",
+      "output_path": "source/schemas/gate_decision.schema.json",
+      "kind": "file",
+      "bytes": 546,
+      "sha256": "4ba4e9b5c7ee80b6b2b965419046f6812ca6f28026c95f4fe2ef649eccc1eeac",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/examples/",
+      "output_path": "source/examples",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/examples/manifests/",
+      "output_path": "source/examples/manifests",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/examples/manifests/demo_numeric_manifest.json",
+      "output_path": "source/examples/manifests/demo_numeric_manifest.json",
+      "kind": "file",
+      "bytes": 12107,
+      "sha256": "fea4f23dbbbd28ea20b119a1d64aad1e87b67af3579c0cc0461be75f8e9ab15a",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/examples/manifests/demo_mixed_manifest.json",
+      "output_path": "source/examples/manifests/demo_mixed_manifest.json",
+      "kind": "file",
+      "bytes": 1586,
+      "sha256": "da7b8f1d4ad26e1eebded19a3f854f8df53e0469cbc8dcbc326eb8bca1e86c75",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/examples/data/",
+      "output_path": "source/examples/data",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/scripts/",
+      "output_path": "source/scripts",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/scripts/generate_demo_manifests.py",
+      "output_path": "source/scripts/generate_demo_manifests.py",
+      "kind": "file",
+      "bytes": 4189,
+      "sha256": "77d1c02f6928c5d307d2933ef9ea583555e72756475259e159d40db289ac60c1",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/scripts/run_demo.py",
+      "output_path": "source/scripts/run_demo.py",
+      "kind": "file",
+      "bytes": 852,
+      "sha256": "618c0a2d02ab3064c18784c7dca35f0a9d2bf28bd14823a8fb449d2385da8c97",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/tests/",
+      "output_path": "source/tests",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/tests/test_numeric_canonicalization.py",
+      "output_path": "source/tests/test_numeric_canonicalization.py",
+      "kind": "file",
+      "bytes": 582,
+      "sha256": "6ed467cc0692e594ed587201c4945048bd6795a8fb298d11ab54658667e59028",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/tests/test_code_canonicalization.py",
+      "output_path": "source/tests/test_code_canonicalization.py",
+      "kind": "file",
+      "bytes": 496,
+      "sha256": "91f2a314c4ff9ffbab3e06bc483ad6a7af0840a24a8ed5acdacd5544bafff6f7",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/tests/test_assay_reduction.py",
+      "output_path": "source/tests/test_assay_reduction.py",
+      "kind": "file",
+      "bytes": 607,
+      "sha256": "89566d8561c1ae11e9da0022fbd500a2a7a68e029ac728fdeb0ede233f8ee722",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/tests/test_gate_red_on_missing_lineage.py",
+      "output_path": "source/tests/test_gate_red_on_missing_lineage.py",
+      "kind": "file",
+      "bytes": 552,
+      "sha256": "4e0ba325e1cf25e83ae5546cd4554b36743b82e9a2847e64580eb437dabc21ee",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/tests/test_end_to_end_outputs.py",
+      "output_path": "source/tests/test_end_to_end_outputs.py",
+      "kind": "file",
+      "bytes": 766,
+      "sha256": "fa4480dade2e27a1ce63dbbd1d9cdbc25cc58ad7c794ff6f27e201f079109929",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/",
+      "output_path": "source/artifacts",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_numeric_manifest/",
+      "output_path": "source/artifacts/demo_numeric_manifest",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_numeric_manifest/manifest.normalized.json",
+      "output_path": "source/artifacts/demo_numeric_manifest/manifest.normalized.json",
+      "kind": "file",
+      "bytes": 14699,
+      "sha256": "9e230fecff2ef0b2d3d662b49876e2f3f44ab90ee8b998b117e29ae9a401e704",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_numeric_manifest/canonical_samples.jsonl",
+      "output_path": "source/artifacts/demo_numeric_manifest/canonical_samples.jsonl",
+      "kind": "file",
+      "bytes": 24883,
+      "sha256": "93f4ad8b9a2cbbabfe981f36842af534b0b8544cbec5c2a8d38ade49ec76c53d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_numeric_manifest/genealogy_card.json",
+      "output_path": "source/artifacts/demo_numeric_manifest/genealogy_card.json",
+      "kind": "file",
+      "bytes": 363,
+      "sha256": "d28785d2215bf749295257ccbd6c129b239a5e9bbc6d6fb171fa63d9bd67db27",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_numeric_manifest/channel_budget_card.json",
+      "output_path": "source/artifacts/demo_numeric_manifest/channel_budget_card.json",
+      "kind": "file",
+      "bytes": 541,
+      "sha256": "db9ab20cca185a2b0d6c3f95c16a395d9c6ca41fe3f1092aa7f5ad037a179fef",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_numeric_manifest/assay_result.json",
+      "output_path": "source/artifacts/demo_numeric_manifest/assay_result.json",
+      "kind": "file",
+      "bytes": 840,
+      "sha256": "75514fca70d18b38c1c3816014e7efee747f8bdc0df6d79d326680b24711eaa0",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_numeric_manifest/gate_decision.json",
+      "output_path": "source/artifacts/demo_numeric_manifest/gate_decision.json",
+      "kind": "file",
+      "bytes": 675,
+      "sha256": "0ab679fcbcfc33bbe52425d661cc73304ca1889bff673d9cae462ab552f92e15",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_numeric_manifest/audit_report.json",
+      "output_path": "source/artifacts/demo_numeric_manifest/audit_report.json",
+      "kind": "file",
+      "bytes": 48266,
+      "sha256": "d873418ca8d129b7fca1c72b411ee598bf2510ff8670594665fadf037ecdf9e0",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_numeric_manifest/audit_report.md",
+      "output_path": "source/artifacts/demo_numeric_manifest/audit_report.md",
+      "kind": "file",
+      "bytes": 4281,
+      "sha256": "bfa404e0beef785f11e6b091100510de43a0d495511a2c270b7812bab80e404c",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_numeric_manifest/control_plane_whitebox.json",
+      "output_path": "source/artifacts/demo_numeric_manifest/control_plane_whitebox.json",
+      "kind": "file",
+      "bytes": 709,
+      "sha256": "e9faab4f4d9d2ed9c960e4e46e85b6da96f77fde190e3ec082d13a2bc8b0a863",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_mixed_manifest/",
+      "output_path": "source/artifacts/demo_mixed_manifest",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_mixed_manifest/manifest.normalized.json",
+      "output_path": "source/artifacts/demo_mixed_manifest/manifest.normalized.json",
+      "kind": "file",
+      "bytes": 1960,
+      "sha256": "5081c9e03c008e9a8a81f539155745b76d118cdfb84c1fa8bb0ee7975486bd67",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_mixed_manifest/canonical_samples.jsonl",
+      "output_path": "source/artifacts/demo_mixed_manifest/canonical_samples.jsonl",
+      "kind": "file",
+      "bytes": 2011,
+      "sha256": "1542054557f894b3b1b6731cb7b50758bf7a53887d78464675f1863f2396c982",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_mixed_manifest/genealogy_card.json",
+      "output_path": "source/artifacts/demo_mixed_manifest/genealogy_card.json",
+      "kind": "file",
+      "bytes": 329,
+      "sha256": "745a6445e76db1c264c17eeee1af5329b7a1d8b3745ecf0221dfb548aca450bb",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_mixed_manifest/channel_budget_card.json",
+      "output_path": "source/artifacts/demo_mixed_manifest/channel_budget_card.json",
+      "kind": "file",
+      "bytes": 661,
+      "sha256": "00f7b6fe37e7291badac6017ba012601ec2eda85528309d03c0de569776e6e5b",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_mixed_manifest/assay_result.json",
+      "output_path": "source/artifacts/demo_mixed_manifest/assay_result.json",
+      "kind": "file",
+      "bytes": 823,
+      "sha256": "d785c62a934e32238f43d0155e7d835de1cdb3b8fb7a49ef4de796173aedb9b6",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_mixed_manifest/gate_decision.json",
+      "output_path": "source/artifacts/demo_mixed_manifest/gate_decision.json",
+      "kind": "file",
+      "bytes": 528,
+      "sha256": "88eb80af361c037650e1472679a685bd9443de8caa4e11fa112a168acacaecfb",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_mixed_manifest/audit_report.json",
+      "output_path": "source/artifacts/demo_mixed_manifest/audit_report.json",
+      "kind": "file",
+      "bytes": 7265,
+      "sha256": "d8d4eddd0d85e5e85fb17f53acffe503621f0506c192332e8f719e33f481ccf9",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_mixed_manifest/audit_report.md",
+      "output_path": "source/artifacts/demo_mixed_manifest/audit_report.md",
+      "kind": "file",
+      "bytes": 3136,
+      "sha256": "f3b19992159b3994de06981aa88fdc5ebae4219c37f5943f1f5be8c32276272e",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/demo_mixed_manifest/control_plane_whitebox.json",
+      "output_path": "source/artifacts/demo_mixed_manifest/control_plane_whitebox.json",
+      "kind": "file",
+      "bytes": 710,
+      "sha256": "ba231f5a4b6375974ca51827f4eb7be30ddc3fb54304f4dc962aa6c10cc16a35",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/cli_numeric/",
+      "output_path": "source/artifacts/cli_numeric",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/cli_numeric/manifest.normalized.json",
+      "output_path": "source/artifacts/cli_numeric/manifest.normalized.json",
+      "kind": "file",
+      "bytes": 14699,
+      "sha256": "9e230fecff2ef0b2d3d662b49876e2f3f44ab90ee8b998b117e29ae9a401e704",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/cli_numeric/canonical_samples.jsonl",
+      "output_path": "source/artifacts/cli_numeric/canonical_samples.jsonl",
+      "kind": "file",
+      "bytes": 24883,
+      "sha256": "93f4ad8b9a2cbbabfe981f36842af534b0b8544cbec5c2a8d38ade49ec76c53d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/cli_numeric/genealogy_card.json",
+      "output_path": "source/artifacts/cli_numeric/genealogy_card.json",
+      "kind": "file",
+      "bytes": 363,
+      "sha256": "d28785d2215bf749295257ccbd6c129b239a5e9bbc6d6fb171fa63d9bd67db27",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/cli_numeric/channel_budget_card.json",
+      "output_path": "source/artifacts/cli_numeric/channel_budget_card.json",
+      "kind": "file",
+      "bytes": 541,
+      "sha256": "db9ab20cca185a2b0d6c3f95c16a395d9c6ca41fe3f1092aa7f5ad037a179fef",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/cli_numeric/assay_result.json",
+      "output_path": "source/artifacts/cli_numeric/assay_result.json",
+      "kind": "file",
+      "bytes": 840,
+      "sha256": "75514fca70d18b38c1c3816014e7efee747f8bdc0df6d79d326680b24711eaa0",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/cli_numeric/gate_decision.json",
+      "output_path": "source/artifacts/cli_numeric/gate_decision.json",
+      "kind": "file",
+      "bytes": 675,
+      "sha256": "0ab679fcbcfc33bbe52425d661cc73304ca1889bff673d9cae462ab552f92e15",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/cli_numeric/audit_report.json",
+      "output_path": "source/artifacts/cli_numeric/audit_report.json",
+      "kind": "file",
+      "bytes": 48266,
+      "sha256": "1435eca7d314dcfe6214094ab2336af3cd8e508564f99eaeded867f7f0894ada",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/cli_numeric/audit_report.md",
+      "output_path": "source/artifacts/cli_numeric/audit_report.md",
+      "kind": "file",
+      "bytes": 4281,
+      "sha256": "dfd7085e95e5ef415b05342f3e855937a59aa6377fee2edba9e2af17fbbf6733",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/artifacts/cli_numeric/control_plane_whitebox.json",
+      "output_path": "source/artifacts/cli_numeric/control_plane_whitebox.json",
+      "kind": "file",
+      "bytes": 709,
+      "sha256": "3366a4477123041b6fca0041c590f12e3f7ad8374f877d10b371424fd2ceed3b",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/docs/",
+      "output_path": "source/docs",
+      "kind": "directory",
+      "bytes": 0,
+      "sha256": null,
+      "original_mode": "0o40755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/docs/delivery_contents.md",
+      "output_path": "source/docs/delivery_contents.md",
+      "kind": "file",
+      "bytes": 824,
+      "sha256": "9d701b39b79a3aec0ffd8f3007ce4c7e5ba31768742961583cd92e850db23156",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/docs/integration_notes.md",
+      "output_path": "source/docs/integration_notes.md",
+      "kind": "file",
+      "bytes": 648,
+      "sha256": "08b7d16fd63435181c2c928676369007cbddfb9d71938e7d6eb1d8c5255b8e46",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/docs/operational_runbook.md",
+      "output_path": "source/docs/operational_runbook.md",
+      "kind": "file",
+      "bytes": 1256,
+      "sha256": "664ed4ef39409d4f59639cbe4d0bc7047b56f9964a743f85818a937ef645d183",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/docs/channel_guard_architecture.png",
+      "output_path": "source/docs/channel_guard_architecture.png",
+      "kind": "file",
+      "bytes": 87930,
+      "sha256": "102651b5c5e5c72ed6f812969b73b0b929ac5325c000fc56d502f30b0ed6c45e",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/docs/gate_decision_matrix.png",
+      "output_path": "source/docs/gate_decision_matrix.png",
+      "kind": "file",
+      "bytes": 140201,
+      "sha256": "f5edd2090c9e53df536949b7a17af9893c660c0c61b92def8071f1d6e3440c33",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/docs/projection_example.png",
+      "output_path": "source/docs/projection_example.png",
+      "kind": "file",
+      "bytes": 81298,
+      "sha256": "9e7d57c37c6e4166fb97e4fda1e8a079664380554649472a1b5cef5771d13bbb",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/README.md",
+      "output_path": "source/README.md",
+      "kind": "file",
+      "bytes": 2977,
+      "sha256": "7fb36b5e33f5c49b7ae017e7352767097641da790357a8b7a1b0f997bdb3e85f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/pyproject.toml",
+      "output_path": "source/pyproject.toml",
+      "kind": "file",
+      "bytes": 582,
+      "sha256": "32f95df4827d834ea71350d64e63f32f389db5c4ecd8a2cc9927bb8f19a6826d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/requirements.txt",
+      "output_path": "source/requirements.txt",
+      "kind": "file",
+      "bytes": 97,
+      "sha256": "144fbeb9feef16511d8255a2d13876096d25632fd3d611748c0e0dfc407e711a",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/Dockerfile",
+      "output_path": "source/Dockerfile",
+      "kind": "file",
+      "bytes": 173,
+      "sha256": "5e36730c3a6d3a5f19c9b1bdbed853553a86ac19a4c33e072d029dea2237dbab",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/docker-compose.yml",
+      "output_path": "source/docker-compose.yml",
+      "kind": "file",
+      "bytes": 117,
+      "sha256": "c1bec4c157d45f7acf99de68b93aa6c12800a667db6059ace0f855124cec472a",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "dikwp_channel_guard_system/.env.example",
+      "output_path": "source/.env.example",
+      "kind": "file",
+      "bytes": 82,
+      "sha256": "239d420c7ddb7ed2738d22c16ce05a562ff19b328123590795101276adb0e1b5",
+      "original_mode": "0o100644",
+      "quarantined": false
+    }
+  ],
+  "evidence_boundary": "Safety of ZIP paths/budgets only. No code, install, build, tests, network, git operation, license reassignment, or certification was performed.",
+  "nested_archive_policy": "Each ZIP recursively inspected to bounded depth; all versions preserved; see root SOURCE_PROVENANCE.json."
+}

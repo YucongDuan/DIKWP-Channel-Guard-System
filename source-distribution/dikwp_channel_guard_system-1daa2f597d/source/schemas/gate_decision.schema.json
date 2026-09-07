@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GateDecision",
+  "type": "object",
+  "required": ["dataset_id", "decision", "summary", "blocking_conditions", "required_actions"],
+  "properties": {
+    "dataset_id": {"type": "string"},
+    "decision": {"enum": ["green", "amber", "red"]},
+    "summary": {"type": "string"},
+    "blocking_conditions": {"type": "array", "items": {"type": "string"}},
+    "required_actions": {"type": "array", "items": {"type": "string"}},
+    "metrics_snapshot": {"type": "object"}
+  }
+}

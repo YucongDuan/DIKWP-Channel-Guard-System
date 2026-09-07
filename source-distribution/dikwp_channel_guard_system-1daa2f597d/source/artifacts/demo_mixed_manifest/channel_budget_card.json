@@ -1,0 +1,31 @@
+{
+  "dataset_id": "demo_mixed_modalities",
+  "declared_semantics": [
+    "intent",
+    "action",
+    "structural shape",
+    "uncertainty"
+  ],
+  "raw_entropy_avg": 3.809,
+  "canonical_entropy_avg": 3.4895,
+  "entropy_reduction": 0.0766,
+  "residual_literal_ratio_avg": 0.0,
+  "projection_summary": {
+    "by_projection": {
+      "dialog_state_v1": 1,
+      "python_ast_v1": 1,
+      "json_slots_v1": 1,
+      "free_text_shape_v1": 1
+    },
+    "by_modality": {
+      "dialog": 1,
+      "code": 1,
+      "json": 1,
+      "free_text": 1
+    },
+    "declared_semantics_count": 4,
+    "raw_bits_avg": 85.3242,
+    "canonical_bits_avg": 78.7844
+  },
+  "notes": []
+}

@@ -1,0 +1,14 @@
+{
+  "dataset_id": "demo_numeric_lineage",
+  "base_family": "demo_family_v1",
+  "student_base_family": "demo_family_v1",
+  "teacher_model": "demo_teacher_pair_v1",
+  "trusted_root": "human_origin_seed_v1",
+  "lineage_complete": true,
+  "synthetic_depth": 1,
+  "same_family_risk": true,
+  "risk_color": "amber",
+  "notes": [
+    "same_or_matching_base_family"
+  ]
+}
